@@ -1,0 +1,16 @@
+Problem Statement
+
+
+
+Heart disease is one of the leading causes of mortality worldwide.
+ Early detection and effective analysis of patient health data are essential for reducing risks and improving treatment outcomes. 
+ However, large healthcare datasets contain complex information that is difficult to interpret using traditional methods.
+
+
+
+This project aims to analyze the Heart Disease UCI dataset using MySQL and Tableau. 
+The collected data is stored in a relational database, processed using SQL queries, 
+and visualized through interactive dashboards. 
+The project helps identify important risk factors such as age, cholesterol level, blood pressure, chest pain type, 
+and exercise-induced angina. The final dashboard provides meaningful insights that support healthcare professionals and 
+decision-makers in understanding disease patterns and making data-driven decisions.

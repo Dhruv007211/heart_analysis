@@ -1,0 +1,23 @@
+Title
+
+Data Cleaning Process
+
+Content
+
+Introduction
+
+Before creating visualizations in Tableau, the heart disease dataset was checked to ensure that the data was clean, consistent, and ready for analysis.
+
+Data Cleaning Steps
+
+Imported the CSV dataset.
+Checked all column names and data types.
+Verified duplicate records.
+Removed unnecessary spaces from text values.
+Checked for invalid values in numerical columns.
+Ensured categorical values such as sex, cp, and num were consistent.
+Loaded the cleaned dataset into MySQL.
+
+Outcome
+
+The dataset was cleaned and prepared successfully for visualization and SQL analysis.

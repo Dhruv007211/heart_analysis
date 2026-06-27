@@ -1,0 +1,12 @@
+The main business requirements of this project are:
+
+Collect and store heart disease data in MySQL.
+Perform SQL operations for data analysis.
+Connect MySQL with Tableau.
+Prepare and clean the dataset.
+Develop interactive visualizations.
+Create an informative dashboard.
+Build a Tableau Story to present findings.
+Integrate the dashboard with a Flask web application.
+Generate project documentation and presentation.
+Support healthcare professionals with interactive data analysis.

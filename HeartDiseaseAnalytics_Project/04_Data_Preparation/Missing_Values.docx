@@ -1,0 +1,21 @@
+Title
+
+Handling Missing Values
+
+Content
+
+Introduction
+
+Missing values can affect the accuracy of analysis and visualizations. Therefore, the dataset was examined before building dashboards.
+
+Observations
+
+Columns such as ca, thal, and oldpeak contained some missing values.
+Numerical missing values were ignored where appropriate or handled during analysis.
+Tableau automatically excluded null values from affected charts.
+Records with sufficient information were used for visualization.
+
+Outcome
+
+The remaining data was sufficient to generate accurate dashboards and insights.
+

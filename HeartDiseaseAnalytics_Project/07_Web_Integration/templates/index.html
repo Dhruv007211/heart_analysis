@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardioIntel | Heart Disease Analytics Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <div class="logo-section">
+            <i class="fa-solid fa-heart-pulse logo-icon"></i>
+            <h2>CardioIntel</h2>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-item active" data-target="dashboard-section"><a href="#"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
+            <li class="nav-item" data-target="sql-section"><a href="#"><i class="fa-solid fa-database"></i> SQL Repository</a></li>
+            <li class="nav-item" data-target="clinical-section"><a href="#"><i class="fa-solid fa-book-medical"></i> Clinical Data</a></li>
+            <li class="nav-item" data-target="settings-section"><a href="#"><i class="fa-solid fa-gears"></i> Pipeline Settings</a></li>
+        </ul>
+        <div class="user-profile">
+            <div class="avatar"><i class="fa-solid fa-user-doctor"></i></div>
+            <div class="user-info">
+                <h4>Dhruv Singh</h4>
+                <p>Data Intern</p>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <header class="top-bar">
+            <div class="welcome-text">
+                <h1 id="page-title">Heart Disease Analytics Engine</h1>
+                <p>Enterprise Business Intelligence Pipeline & Patient Diagnostics</p>
+            </div>
+            <div class="system-status">
+                <span class="status-badge"><i class="fa-solid fa-circle"></i> Pipeline Live</span>
+                <span class="db-badge"><i class="fa-solid fa-database"></i> MySQL Connected</span>
+            </div>
+        </header>
+
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-users"></i></div>
+                <div class="metric-data">
+                    <h3>308</h3>
+                    <p>Total Sample Records</p>
+                </div>
+            </div>
+            <div class="metric-card critical">
+                <div class="metric-icon"><i class="fa-solid fa-heart-circle-exclamation"></i></div>
+                <div class="metric-data">
+                    <h3>58</h3>
+                    <p>Positive Heart Disease Cases</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-user-clock"></i></div>
+                <div class="metric-data">
+                    <h3>54.6</h3>
+                    <p>Average Patient Age</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                <div class="metric-data">
+                    <h3 id="response-timer">&lt; 0.02s</h3>
+                    <p>SQL Response Time</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            
+            <section id="dashboard-section" class="tab-content">
+                <div class="overview-section">
+                    <div class="section-title">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <h2>Executive Project Architecture</h2>
+                    </div>
+                    <p>
+                        This clinical-grade analytical platform maps complex cardiological profiles from a structured <strong>MySQL</strong> backend directly into interactive <strong>Tableau Business Intelligence</strong> layers. By evaluating critical diagnostic variables—including chest pain classification (CP), resting metabolic baselines, and peak exercise workloads—this framework provides physicians with a fast, data-driven vector to identify high-risk cardiovascular trends instantly.
+                    </p>
+                </div>
+
+                <div class="dashboard-container">
+                    <div class="dashboard-header">
+                        <div class="title-block">
+                            <i class="fa-solid fa-square-poll-vertical"></i>
+                            <h2>Interactive Production Environment</h2>
+                        </div>
+                        <span class="platform-tag">Tableau Embed</span>
+                    </div>
+                    <div class="viz-frame-wrapper">
+                        <div class='tableauPlaceholder' id='viz1782547602228' style='position: relative; width: 100%;'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Heart Disease Analytics Dashboard' src='https://public.tableau.com/static/images/MM/MMZPZ7WP5/1_rss.png' style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz' style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='path' value='shared/MMZPZ7WP5' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https://public.tableau.com/static/images/MM/MMZPZ7WP5/1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sql-section" class="tab-content">
+                <div class="sql-workspace-layout">
+                    
+                    <div class="schema-sidebar">
+                        <div class="schema-header">
+                            <i class="fa-solid fa-folder-tree"></i>
+                            <h4>Active DB Schema</h4>
+                        </div>
+                        <div class="db-meta-info">
+                            <p class="db-title"><i class="fa-solid fa-server"></i> heart_disease_db</p>
+                            <details open class="table-tree">
+                                <summary><i class="fa-solid fa-table-list"></i> patient_records <span class="row-count">(308 rows)</span></summary>
+                                <ul>
+                                    <li><span class="col-name">patient_id</span> <span class="col-type">INT [PK]</span></li>
+                                    <li><span class="col-name">age</span> <span class="col-type">INT</span></li>
+                                    <li><span class="col-name">sex</span> <span class="col-type">INT (1=M,0=F)</span></li>
+                                    <li><span class="col-name">cp</span> <span class="col-type">INT (0-3)</span></li>
+                                    <li><span class="col-name">trestbps</span> <span class="col-type">INT (mmHg)</span></li>
+                                    <li><span class="col-name">chol</span> <span class="col-type">INT (mg/dl)</span></li>
+                                    <li><span class="col-name">thalach</span> <span class="col-type">INT</span></li>
+                                    <li><span class="col-name">exang</span> <span class="col-type">INT (0/1)</span></li>
+                                    <li><span class="col-name">target</span> <span class="col-type">INT (0/1)</span></li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="editor-main-panel">
+                        <div class="template-shelf">
+                            <span class="shelf-lbl"><i class="fa-solid fa-bolt"></i> Quick Queries:</span>
+                            <button class="tpl-btn" data-query="1">Select All Records</button>
+                            <button class="tpl-btn" data-query="2">High Risk [Cholesterol &gt; 200]</button>
+                            <button class="tpl-btn" data-query="3">Demographics Profile</button>
+                        </div>
+
+                        <div class="terminal-card">
+                            <div class="terminal-bar-header">
+                                <div class="terminal-dots"><span></span><span></span><span></span></div>
+                                <span class="terminal-filename">query_workspace.sql</span>
+                            </div>
+                            <textarea id="sql-terminal-textarea" spellcheck="false">SELECT * FROM patient_records LIMIT 5;</textarea>
+                        </div>
+
+                        <div class="terminal-control-actions">
+                            <button id="execute-query-btn" class="action-btn success-variant"><i class="fa-solid fa-play"></i> Run Core Engine Script</button>
+                            <button id="clear-terminal-btn" class="action-btn secondary-variant"><i class="fa-solid fa-rotate-left"></i> Reset Terminal</button>
+                        </div>
+
+                        <div class="output-grid-container">
+                            <div class="output-header-bar">
+                                <span><i class="fa-solid fa-terminal"></i> Response Data Stream Terminal</span>
+                                <span id="output-meta-stats" class="meta-stat-chip">Success: 5 Rows Rendered</span>
+                            </div>
+                            <div class="table-overflow-scroller">
+                                <table id="sql-runtime-table-view" class="production-table-element">
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="clinical-section" class="tab-content">
+                <div class="overview-section">
+                    <div class="section-title">
+                        <i class="fa-solid fa-stethoscope"></i>
+                        <h2>Statistical Metric Dictionary</h2>
+                    </div>
+                    <p>These clinical features map directly to the active components rendered inside your Tableau multi-dimensional layouts:</p>
+                    
+                    <div class="clinical-cards-grid">
+                        <div class="clinical-profile-card">
+                            <strong style="color: var(--primary-color);"><i class="fa-solid fa-file-medical"></i> 1. Chest Pain (CP Classification):</strong>
+                            <p>Categorized from Type 0 to Type 3 representing Asymptomatic, Typical Angina, Atypical Angina, and Non-anginal physiological pain models.</p>
+                        </div>
+                        <div class="clinical-profile-card">
+                            <strong style="color: var(--primary-color);"><i class="fa-solid fa-droplet"></i> 2. Serum Cholesterol (chol):</strong>
+                            <p>Measured in mg/dl. Serum baselines exceeding 200 mg/dl signify high risk factors monitored dynamically across cross-filters.</p>
+                        </div>
+                        <div class="clinical-profile-card">
+                            <strong style="color: var(--primary-color);"><i class="fa-solid fa-wave-square"></i> 3. Max Heart Rate (thalach):</strong>
+                            <p>Peak metabolic performance heart rate achieved during continuous clinical stress-testing protocols.</p>
+                        </div>
+                        <div class="clinical-profile-card">
+                            <strong style="color: var(--primary-color);"><i class="fa-solid fa-gauge-vertical"></i> 4. Exercise Angina (exang):</strong>
+                            <p>Binary variable (1 = Yes; 0 = No) reflecting immediate ischemic constraints on cardiac muscles during stress exercises.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="settings-section" class="tab-content">
+                <div class="overview-section">
+                    <div class="section-title"><i class="fa-solid fa-sliders"></i><h2>Data Pipeline Configuration</h2></div>
+                    <p>Control properties for the end-to-end data processing workflow engine.</p>
+                    
+                    <div class="config-system-sheet">
+                        <h4><i class="fa-solid fa-circle-check" style="color: #2e7d32;"></i> Active Server Configuration Cluster Node</h4>
+                        <ul class="meta-config-items">
+                            <li><strong>ETL Refresh Interval:</strong> Real-time Stream Integration</li>
+                            <li><strong>Target Tableau Server:</strong> Public API cloud node</li>
+                            <li><strong>Backend Pipeline:</strong> Flask WSGI Core with Multithreading (Port 5000)</li>
+                            <li><strong>Storage Framework:</strong> MySQL Connection Pooling Enabled (Max: 10 active threads)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <footer class="app-footer">
+            <p>© 2026 CardioIntel Enterprise Portal | Developed by <strong>Dhruv Singh</strong> (End-to-End Analytics Internship Project)</p>
+        </footer>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

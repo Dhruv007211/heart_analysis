@@ -1,0 +1,17 @@
+Literature Survey
+
+Heart disease continues to be one of the most significant public health
+ challenges worldwide. Many healthcare organizations use Business 
+ Intelligence tools to analyze medical datasets and improve patient 
+ care.
+
+Research shows that data visualization tools such as 
+Tableau help transform raw healthcare data into meaningful insights 
+through dashboards and interactive reports. SQL databases provide
+ efficient storage and querying capabilities, while Flask enables 
+ deployment of dashboards through web applications.
+
+Several studies emphasize that factors such as age, cholesterol, 
+blood pressure, chest pain type, and lifestyle habits are strongly 
+associated with heart disease. Visual analytics improves understanding 
+of these relationships and supports preventive healthcare strategies.

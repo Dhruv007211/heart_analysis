@@ -1,0 +1,22 @@
+Title
+
+Data Transformation
+
+Content
+
+Introduction
+
+Raw data was transformed into a format suitable for visualization in Tableau.
+
+Transformation Performed
+
+Imported CSV into MySQL.
+Connected Tableau with the dataset.
+Changed data types where required.
+Converted numerical measures into appropriate aggregations such as COUNT and AVG.
+Created age-wise and cholesterol-based visualizations.
+Used filters for gender, age, chest pain, and heart disease.
+
+Outcome
+
+The transformed data was successfully used to create interactive dashboards.

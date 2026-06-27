@@ -1,0 +1,12 @@
+The objectives of this project are:
+
+Analyze the Heart Disease UCI dataset.
+Store the dataset in MySQL.
+Execute SQL queries for data analysis.
+Prepare the dataset for visualization.
+Create multiple interactive Tableau visualizations.
+Develop KPI cards and dashboards.
+Build a Tableau Story.
+Integrate Tableau with Flask.
+Perform performance testing.
+Generate complete project documentation and presentation.

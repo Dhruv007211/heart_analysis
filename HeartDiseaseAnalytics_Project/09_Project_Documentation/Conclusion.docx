@@ -1,0 +1,8 @@
+
+CONCLUSION
+
+The Heart Disease Analytics project successfully transformed raw healthcare data into meaningful visual insights using MySQL, Tableau, and Flask.
+
+The dashboard provides interactive analysis of patient records and helps identify important factors associated with heart disease. Features such as KPI cards, charts, filters, dashboards, and stories improve data interpretation and support better decision-making.
+
+The project demonstrates the practical use of Business Intelligence tools in healthcare and highlights the importance of data visualization for understanding complex medical information.

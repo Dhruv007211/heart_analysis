@@ -1,0 +1,40 @@
+1. Introduction
+
+The Heart Disease Analytics project was developed to analyze heart disease data using MySQL, Tableau, and Flask. Performance testing was conducted to evaluate the efficiency, responsiveness, and accuracy of the dashboard while handling the dataset.
+
+2. Testing Environment
+Component	Details
+Database	MySQL
+Visualization Tool	Tableau Public
+Backend	Flask
+Programming Language	Python
+Dataset	Heart Disease UCI Dataset
+Records	308
+Attributes	15
+
+3. Performance Evaluation
+Test	Status
+Dataset Import	Passed
+SQL Queries Execution	Passed
+Tableau Connection	Passed
+Dashboard Loading	Passed
+KPI Display	Passed
+Charts Rendering	Passed
+Interactive Filters	Passed
+Web Integration	Passed
+
+4. Dashboard Performance
+Total Records Analyzed: 308
+Total Visualizations: 10
+KPI Cards: 4
+Interactive Filters: 5
+Dashboard Response: Smooth
+Errors Encountered: None
+
+5. Conclusion
+
+The project successfully analyzed the Heart Disease dataset with good 
+performance. SQL queries executed correctly, Tableau dashboards 
+responded efficiently, and all visualizations were displayed without
+ noticeable delay. The overall system met the expected performance 
+ requirements.

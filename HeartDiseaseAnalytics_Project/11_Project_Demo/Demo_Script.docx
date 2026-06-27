@@ -1,0 +1,74 @@
+Heart Disease Analytics – Project Demonstration Script
+1. Introduction 
+
+Hello everyone,
+
+My name is Dhruv Singh. Today I am presenting my internship project titled "Heart Disease Analytics using Tableau".
+
+The objective of this project is to analyze heart disease data using MySQL, Tableau, and Flask, and present meaningful insights through interactive dashboards.
+
+2. Problem Statement 
+
+Heart disease is one of the leading causes of death worldwide. Large healthcare datasets contain valuable information, but manual analysis is difficult. This project helps visualize patient data to identify trends and support better healthcare decisions.
+
+3. Dataset 
+
+The project uses the Heart Disease UCI Dataset.
+
+Total Records: 308
+Total Attributes: 15
+
+The dataset includes:
+
+Age
+Gender
+Cholesterol
+Blood Pressure
+Chest Pain
+Exercise-Induced Angina
+Heart Disease Status
+Other clinical parameters
+4. Database 
+
+The dataset was imported into MySQL.
+
+SQL operations performed include:
+
+Creating the database
+Importing the dataset
+Filtering records
+Aggregate queries
+Data analysis using SQL
+5. Tableau Dashboard 
+
+The processed data was connected to Tableau.
+
+The dashboard contains:
+
+4 KPI Cards
+10 Interactive Charts
+5 Filters
+Dashboard
+Story
+
+The dashboard helps analyze patient demographics, disease distribution, cholesterol levels, blood pressure, chest pain types, and other important indicators.
+
+6. Web Integration 
+
+The Tableau dashboard was integrated into a Flask web application.
+
+This provides a simple web interface where users can access the interactive dashboard directly through a browser.
+
+7. Performance Testing 
+
+Performance testing confirmed that:
+
+SQL queries executed successfully.
+The dashboard loaded correctly.
+Interactive filters worked smoothly.
+The dataset was rendered without errors.
+8. Conclusion (30–40 seconds)
+
+In conclusion, this project demonstrates how Business Intelligence tools such as Tableau can transform healthcare data into meaningful visual insights. The interactive dashboard supports better analysis and can assist healthcare professionals in making informed decisions.
+
+Thank you.

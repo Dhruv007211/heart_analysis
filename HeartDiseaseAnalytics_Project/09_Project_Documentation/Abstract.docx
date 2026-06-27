@@ -1,0 +1,7 @@
+ABSTRACT
+
+Heart disease is one of the leading causes of death worldwide. Early identification of risk factors and effective analysis of patient data can help improve healthcare decisions and reduce mortality rates.
+
+This project, Heart Disease Analytics using Tableau, focuses on analyzing heart disease data through interactive dashboards and visualizations. The dataset was stored in MySQL, processed using SQL queries, and connected to Tableau for data visualization. Various charts, KPI cards, filters, and dashboards were developed to identify trends related to age, gender, cholesterol, blood pressure, chest pain, and other clinical indicators.
+
+The project also includes Flask-based web integration to display the Tableau dashboard in a simple web interface. Overall, this project demonstrates how business intelligence tools can support healthcare professionals in making informed decisions through visual analytics.
