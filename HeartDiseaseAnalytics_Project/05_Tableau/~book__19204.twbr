@@ -2102,7 +2102,7 @@
             <zone h='84647' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14523'>
               <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
-                  <story-point caption='Tableau dashboards provide meaningful healthcare insights and support data-driven decision-making for heart disease analysis.' captured-sheet='' id='1' />
+                  <story-point caption='Tableau dashboards provide meaningful healthcare insights and support data-driven decision-making for heart disease analysis.' captured-sheet='Sheet 14' id='1' />
                 </story-points>
               </flipboard>
             </zone>
@@ -2119,7 +2119,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='100'>
@@ -2392,7 +2392,7 @@
       </cards>
       <simple-id uuid='{FD14D353-342F-4EAA-A2B6-78590AF18571}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 12'>
+    <window class='worksheet' name='Sheet 12'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2427,7 +2427,7 @@
     </window>
     <window class='dashboard' name='Story 3'>
       <viewpoints />
-      <active id='4' />
+      <active id='-1' />
       <simple-id uuid='{6A4C5BEB-38E8-4C43-94DB-8AE08BFEF1AB}' />
     </window>
     <window class='worksheet' name='Sheet 13'>
